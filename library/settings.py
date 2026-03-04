@@ -60,6 +60,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'library.urls'
+# AUTH_USER_MODEL = '<app_name>.<model_name>'
+AUTH_USER_MODEL = 'my_app.User'
 
 TEMPLATES = [
     {
